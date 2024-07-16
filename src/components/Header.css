@@ -1,0 +1,26 @@
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 5px #000;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+}
