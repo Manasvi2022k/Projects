@@ -1,0 +1,19 @@
+
+.footer-button {
+  background: none;
+  border: none;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer-icon {
+  font-size: 24px;
+}
+
+.footer-button span {
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
