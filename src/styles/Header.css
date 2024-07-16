@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px; /* Added margin to header */
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  height: 50px;
+  
+}
+
+.title {
+  font-size: 24px;
+  color: #A1824A;
+}
+
+.profile-wrapper {
+  margin-right: 0px; 
+  margin-right: 16px; /* Added margin-right to profile icon */
+  /* Added margin-right to profile icon wrapper */
+}
+
+.profile {
+  height: 50px;
+  margin-right: 16px; /* Added margin-right to profile icon */
+  margin-left: auto; 
+}

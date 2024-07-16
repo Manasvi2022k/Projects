@@ -1,0 +1,23 @@
+.upcoming {
+  padding: 0px 10px;
+  
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.sport-item {
+    min-width: 150px;
+    margin-right: 10px;
+    flex: 0 0 auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+  

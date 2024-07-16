@@ -1,0 +1,81 @@
+/* src/styles/Sports.css */
+.sports {
+  padding: 20px 0px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.sports-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-left: 16px; /* Ensure padding left for the scroll container */
+}
+
+.sport-item {
+  display: inline-block;
+  width: 150px;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sport-item img {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.sport-item p {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.sport-item a {
+  color: #A1824Aff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sport-item a:hover {
+  text-decoration: underline;
+}
+.sport-image {
+
+  width: 200px; /* Set desired width */
+  height: 200px; /* Set desired height */
+}
+body {
+  margin: 16px;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px; /* Adjust the top margin to position the buttons appropriately */
+  padding: 20px; /* Optional: Add padding to the container */
+  
+}
+.custom-button:hover{
+  transform:scale(1.0.5);
+  background-color: #dcd3b6;
+  box-shadow: 2px 1.5px 7px rgb(166, 164, 164) ;
+}
+
+.custom-button {
+  background-color: #f8f4e8;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+

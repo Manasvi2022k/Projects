@@ -1,19 +1,29 @@
+// src/components/Header.js
 import React from 'react';
-import './Header.css';
-import footballImage from '../images/football.jpeg'; // Ensure you have an image named football.jpg in src/images
+import { Link } from 'react-router-dom';
+import '../styles/Header.css';
 
 const Header = () => {
-    return (
-        <header className="hero-section">
-            <div className="hero-content">
-                <img src={footballImage} alt="Football Player" className="hero-image" />
-                <div className="hero-text">
-                    <h1>FOOTBALL</h1>
-                    <h2>CHAMPIONSHIP - MAN CITY vs REAL MADRID</h2>
-                </div>
-            </div>
-        </header>
-    );
+  return (
+    <header className="header">
+      <img src="/logose.jpeg" alt="Kingmaker Logo" className="logo" />
+      <h1 className="title">KINGMAKER</h1>
+      
+  <div class="profile-wrapper">
+        <button class="image-button" onclick="handleClick('Image 1')">
+            <img src="WhatsApp Image 2024-06-22 at 12.56.15.jpeg" alt="profile" class="profile" />
+        </button>
+  </div>
+      
+      
+    </header>
+  );
 };
 
 export default Header;
+
+
+
+
+
+
